@@ -8,3 +8,27 @@ def saludar():
 
 saludar()
 
+
+a = 10
+b = 20
+def function():
+    c = a + b;
+    return c
+
+print(function())
+
+#With parameters:
+
+def function(a,b):
+    c = a + b;
+    return c
+
+print(function(10,20))
+
+
+#extraction: get date from differents 
+#trasnformations: modify data and clean it
+#load: traslate data to new database or storage
+
+
+

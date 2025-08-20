@@ -50,3 +50,4 @@ print(df)
 del df["To_avg"] # Borrar la columna To_avg
 
 # df.drop(columns = ["To_avg", "Ws_avg", "Wd_avg", "P_avg"]) # Borrar varias columnas
+

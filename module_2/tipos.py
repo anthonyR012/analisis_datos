@@ -16,32 +16,46 @@ cuerna = pd.read_csv(f, index_col = 0, parse_dates = True)
 
 fig, ax = plt.subplots()
 
-ax.plot(cuerna.To)
-ax.set_title('plot')
+# ax.plot(cuerna.To)
+# ax.set_title('plot')
+
+# plt.tight_layout()
+# plt.show() 
+
+# ax.scatter(cuerna.To, cuerna.Ws)
+# ax.set_title('scatter')
+
+# plt.tight_layout()
+# plt.show() 
+
+# ax.bar(cuerna.To, cuerna.Ws)
+# ax.set_title('bar')
+
+# plt.tight_layout()
+# plt.show() 
+
+# ax.hist(cuerna.To)
+# ax.set_title('hist')
+
+# plt.tight_layout()
+# plt.show() 
+
+# ax.stem(cuerna.To)
+# ax.set_title('stem')
+
+
+# plt.tight_layout()
+# plt.show() 
+
+
+fig, ax = plt.subplots()
+
+# ax.fill_between(cuerna.index, cuerna.To.mean(), cuerna.To)
+# ax.set_title('fill_between')
+# ax.plot(cuerna.To,"r-")
+
+ax.stairs(cuerna.To)
+ax.set_title('stairs')
 
 plt.tight_layout()
-plt.show() 
-
-ax.scatter(cuerna.To, cuerna.Ws)
-ax.set_title('scatter')
-
-plt.tight_layout()
-plt.show() 
-
-ax.bar(cuerna.To, cuerna.Ws)
-ax.set_title('bar')
-
-plt.tight_layout()
-plt.show() 
-
-ax.hist(cuerna.To)
-ax.set_title('hist')
-
-plt.tight_layout()
-plt.show() 
-
-ax.stem(cuerna.To)
-ax.set_title('stem')
-
-plt.tight_layout()
-plt.show() 
+plt.show()

@@ -40,3 +40,4 @@ tzdata==2025.2
 wcwidth==0.2.13
 widgetsnbextension==4.0.14
 zipp==3.23.0
+xlrd==1.2.0
